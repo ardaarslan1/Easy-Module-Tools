@@ -2,6 +2,7 @@ from plyer import notification
 from datetime import datetime
 
 time=datetime.now()
+
 iftar_hour=19-time.hour
 iftar_min=15-time.minute
 

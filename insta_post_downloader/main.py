@@ -2,7 +2,6 @@ import instaloader
 import re
 
 download=instaloader.Instaloader()
-
 url=input("Enter Url:")
 
 shortcode = re.search("/p/(.*?)/", url).group(1)
